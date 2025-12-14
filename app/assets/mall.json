@@ -1,0 +1,205 @@
+{
+    "nodes": [
+        {
+            "id": "mall_entry",
+            "name": "Mall Entrance",
+            "x": 0,
+            "y": 30,
+            "z": 0
+        },
+        {
+            "id": "atrium",
+            "name": "Grand Atrium",
+            "x": 0,
+            "y": 20,
+            "z": 0
+        },
+        {
+            "id": "info_desk",
+            "name": "Info Desk",
+            "x": 0,
+            "y": 22,
+            "z": 0
+        },
+        {
+            "id": "zara",
+            "name": "Zara",
+            "x": -15,
+            "y": 20,
+            "z": 0
+        },
+        {
+            "id": "hm",
+            "name": "H&M",
+            "x": 15,
+            "y": 20,
+            "z": 0
+        },
+        {
+            "id": "nike",
+            "name": "Nike",
+            "x": -15,
+            "y": 10,
+            "z": 0
+        },
+        {
+            "id": "apple",
+            "name": "Apple Store",
+            "x": 15,
+            "y": 10,
+            "z": 0
+        },
+        {
+            "id": "escalator_up",
+            "name": "Escalator Up",
+            "x": 5,
+            "y": 15,
+            "z": 0
+        },
+        {
+            "id": "food_court",
+            "name": "Food Court",
+            "x": 0,
+            "y": 10,
+            "z": 5
+        },
+        {
+            "id": "mcd",
+            "name": "McDonalds",
+            "x": -10,
+            "y": 5,
+            "z": 5
+        },
+        {
+            "id": "kfc",
+            "name": "KFC",
+            "x": 10,
+            "y": 5,
+            "z": 5
+        },
+        {
+            "id": "starbucks",
+            "name": "Starbucks",
+            "x": 0,
+            "y": 15,
+            "z": 5
+        },
+        {
+            "id": "cinema_entry",
+            "name": "Cinema Entrance",
+            "x": 0,
+            "y": 25,
+            "z": 10
+        },
+        {
+            "id": "screen1",
+            "name": "Screen 1",
+            "x": -10,
+            "y": 20,
+            "z": 10
+        },
+        {
+            "id": "screen2",
+            "name": "Screen 2",
+            "x": 10,
+            "y": 20,
+            "z": 10
+        },
+        {
+            "id": "restroom_g",
+            "name": "Restroom (Ground)",
+            "x": -20,
+            "y": 25,
+            "z": 0
+        },
+        {
+            "id": "restroom_f1",
+            "name": "Restroom (Food Court)",
+            "x": -20,
+            "y": 10,
+            "z": 5
+        }
+    ],
+    "edges": [
+        {
+            "id": "e1",
+            "source": "mall_entry",
+            "target": "atrium"
+        },
+        {
+            "id": "e2",
+            "source": "atrium",
+            "target": "info_desk"
+        },
+        {
+            "id": "e3",
+            "source": "atrium",
+            "target": "zara"
+        },
+        {
+            "id": "e4",
+            "source": "atrium",
+            "target": "hm"
+        },
+        {
+            "id": "e5",
+            "source": "atrium",
+            "target": "nike"
+        },
+        {
+            "id": "e6",
+            "source": "atrium",
+            "target": "apple"
+        },
+        {
+            "id": "e7",
+            "source": "atrium",
+            "target": "restroom_g"
+        },
+        {
+            "id": "e8",
+            "source": "atrium",
+            "target": "escalator_up"
+        },
+        {
+            "id": "e9",
+            "source": "escalator_up",
+            "target": "food_court"
+        },
+        {
+            "id": "e10",
+            "source": "food_court",
+            "target": "mcd"
+        },
+        {
+            "id": "e11",
+            "source": "food_court",
+            "target": "kfc"
+        },
+        {
+            "id": "e12",
+            "source": "food_court",
+            "target": "starbucks"
+        },
+        {
+            "id": "e13",
+            "source": "food_court",
+            "target": "restroom_f1"
+        },
+        {
+            "id": "e14",
+            "source": "escalator_up",
+            "target": "cinema_entry"
+        },
+        {
+            "id": "e15",
+            "source": "cinema_entry",
+            "target": "screen1"
+        },
+        {
+            "id": "e16",
+            "source": "cinema_entry",
+            "target": "screen2"
+        }
+    ]
+}

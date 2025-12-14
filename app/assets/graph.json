@@ -1,0 +1,383 @@
+{
+  "nodes": [
+    {
+      "id": "entry",
+      "name": "Main Entrance",
+      "x": 0,
+      "y": 25,
+      "z": 0
+    },
+    {
+      "id": "lobby",
+      "name": "Lobby",
+      "x": 0,
+      "y": 20,
+      "z": 0
+    },
+    {
+      "id": "stairs_g",
+      "name": "Stairs (Ground)",
+      "x": -5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "id": "elevator_g",
+      "name": "Elevator (Ground)",
+      "x": 5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "id": "corridor_g",
+      "name": "Ground Corridor",
+      "x": 0,
+      "y": 10,
+      "z": 0
+    },
+    {
+      "id": "c101",
+      "name": "Classroom 101",
+      "x": -25,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "id": "c102",
+      "name": "Classroom 102",
+      "x": -15,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "id": "c103",
+      "name": "Classroom 103",
+      "x": -5,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "id": "c104",
+      "name": "Classroom 104",
+      "x": 15,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "id": "c105",
+      "name": "Classroom 105",
+      "x": 25,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "id": "library",
+      "name": "Library",
+      "x": -25,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "id": "admin",
+      "name": "Admin Office",
+      "x": 25,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "id": "stairs_1",
+      "name": "Stairs (1st Floor)",
+      "x": -5,
+      "y": 15,
+      "z": 5
+    },
+    {
+      "id": "elevator_1",
+      "name": "Elevator (1st Floor)",
+      "x": 5,
+      "y": 15,
+      "z": 5
+    },
+    {
+      "id": "corridor_1",
+      "name": "1st Floor Corridor",
+      "x": 0,
+      "y": 10,
+      "z": 5
+    },
+    {
+      "id": "c201",
+      "name": "Classroom 201",
+      "x": -25,
+      "y": 5,
+      "z": 5
+    },
+    {
+      "id": "c202",
+      "name": "Classroom 202",
+      "x": -15,
+      "y": 5,
+      "z": 5
+    },
+    {
+      "id": "c203",
+      "name": "Classroom 203",
+      "x": -5,
+      "y": 5,
+      "z": 5
+    },
+    {
+      "id": "c204",
+      "name": "Classroom 204",
+      "x": 15,
+      "y": 5,
+      "z": 5
+    },
+    {
+      "id": "c205",
+      "name": "Classroom 205",
+      "x": 25,
+      "y": 5,
+      "z": 5
+    },
+    {
+      "id": "physics_lab",
+      "name": "Physics Lab",
+      "x": -25,
+      "y": 15,
+      "z": 5
+    },
+    {
+      "id": "chem_lab",
+      "name": "Chemistry Lab",
+      "x": 25,
+      "y": 15,
+      "z": 5
+    },
+    {
+      "id": "stairs_2",
+      "name": "Stairs (2nd Floor)",
+      "x": -5,
+      "y": 15,
+      "z": 10
+    },
+    {
+      "id": "elevator_2",
+      "name": "Elevator (2nd Floor)",
+      "x": 5,
+      "y": 15,
+      "z": 10
+    },
+    {
+      "id": "corridor_2",
+      "name": "2nd Floor Corridor",
+      "x": 0,
+      "y": 10,
+      "z": 10
+    },
+    {
+      "id": "c301",
+      "name": "Classroom 301",
+      "x": -25,
+      "y": 5,
+      "z": 10
+    },
+    {
+      "id": "c302",
+      "name": "Classroom 302",
+      "x": -15,
+      "y": 5,
+      "z": 10
+    },
+    {
+      "id": "c303",
+      "name": "Classroom 303",
+      "x": -5,
+      "y": 5,
+      "z": 10
+    },
+    {
+      "id": "c304",
+      "name": "Classroom 304",
+      "x": 15,
+      "y": 5,
+      "z": 10
+    },
+    {
+      "id": "c305",
+      "name": "Classroom 305",
+      "x": 25,
+      "y": 5,
+      "z": 10
+    },
+    {
+      "id": "auditorium",
+      "name": "Auditorium",
+      "x": 0,
+      "y": 25,
+      "z": 10
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_entry_lobby",
+      "source": "entry",
+      "target": "lobby"
+    },
+    {
+      "id": "e_lobby_corrG",
+      "source": "lobby",
+      "target": "corridor_g"
+    },
+    {
+      "id": "e_corrG_stairsG",
+      "source": "corridor_g",
+      "target": "stairs_g"
+    },
+    {
+      "id": "e_corrG_elevG",
+      "source": "corridor_g",
+      "target": "elevator_g"
+    },
+    {
+      "id": "e_corrG_c101",
+      "source": "corridor_g",
+      "target": "c101"
+    },
+    {
+      "id": "e_corrG_c102",
+      "source": "corridor_g",
+      "target": "c102"
+    },
+    {
+      "id": "e_corrG_c103",
+      "source": "corridor_g",
+      "target": "c103"
+    },
+    {
+      "id": "e_corrG_c104",
+      "source": "corridor_g",
+      "target": "c104"
+    },
+    {
+      "id": "e_corrG_c105",
+      "source": "corridor_g",
+      "target": "c105"
+    },
+    {
+      "id": "e_corrG_lib",
+      "source": "corridor_g",
+      "target": "library"
+    },
+    {
+      "id": "e_corrG_admin",
+      "source": "corridor_g",
+      "target": "admin"
+    },
+    {
+      "id": "e_stairs_G_1",
+      "source": "stairs_g",
+      "target": "stairs_1"
+    },
+    {
+      "id": "e_elev_G_1",
+      "source": "elevator_g",
+      "target": "elevator_1"
+    },
+    {
+      "id": "e_stairs1_corr1",
+      "source": "stairs_1",
+      "target": "corridor_1"
+    },
+    {
+      "id": "e_elev1_corr1",
+      "source": "elevator_1",
+      "target": "corridor_1"
+    },
+    {
+      "id": "e_corr1_c201",
+      "source": "corridor_1",
+      "target": "c201"
+    },
+    {
+      "id": "e_corr1_c202",
+      "source": "corridor_1",
+      "target": "c202"
+    },
+    {
+      "id": "e_corr1_c203",
+      "source": "corridor_1",
+      "target": "c203"
+    },
+    {
+      "id": "e_corr1_c204",
+      "source": "corridor_1",
+      "target": "c204"
+    },
+    {
+      "id": "e_corr1_c205",
+      "source": "corridor_1",
+      "target": "c205"
+    },
+    {
+      "id": "e_corr1_phy",
+      "source": "corridor_1",
+      "target": "physics_lab"
+    },
+    {
+      "id": "e_corr1_chem",
+      "source": "corridor_1",
+      "target": "chem_lab"
+    },
+    {
+      "id": "e_stairs_1_2",
+      "source": "stairs_1",
+      "target": "stairs_2"
+    },
+    {
+      "id": "e_elev_1_2",
+      "source": "elevator_1",
+      "target": "elevator_2"
+    },
+    {
+      "id": "e_stairs2_corr2",
+      "source": "stairs_2",
+      "target": "corridor_2"
+    },
+    {
+      "id": "e_elev2_corr2",
+      "source": "elevator_2",
+      "target": "corridor_2"
+    },
+    {
+      "id": "e_corr2_c301",
+      "source": "corridor_2",
+      "target": "c301"
+    },
+    {
+      "id": "e_corr2_c302",
+      "source": "corridor_2",
+      "target": "c302"
+    },
+    {
+      "id": "e_corr2_c303",
+      "source": "corridor_2",
+      "target": "c303"
+    },
+    {
+      "id": "e_corr2_c304",
+      "source": "corridor_2",
+      "target": "c304"
+    },
+    {
+      "id": "e_corr2_c305",
+      "source": "corridor_2",
+      "target": "c305"
+    },
+    {
+      "id": "e_corr2_audit",
+      "source": "corridor_2",
+      "target": "auditorium"
+    }
+  ]
+}
